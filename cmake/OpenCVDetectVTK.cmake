@@ -3,7 +3,7 @@ if(NOT WITH_VTK)
 endif()
 
 # VTK 6.x components
-find_package(VTK QUIET COMPONENTS vtkRenderingOpenGL vtkInteractionStyle vtkRenderingLOD vtkIOPLY vtkFiltersTexture vtkRenderingFreeType vtkIOExport NO_MODULE)
+find_package(VTK QUIET COMPONENTS vtkRenderingOpenGL2 vtkInteractionStyle vtkRenderingLOD vtkIO vtkIOPLY vtkFiltersTexture vtkRenderingFreeType vtkIOExport NO_MODULE)
 
 # VTK 5.x components
 if(NOT VTK_FOUND)
